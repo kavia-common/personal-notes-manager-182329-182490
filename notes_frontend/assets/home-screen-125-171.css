@@ -1,0 +1,95 @@
+.home-screen-125-171 {
+  background-color: var(--color-252525);
+  border-radius: var(--style-0-border_radius);
+}
+
+/* Root rounded backdrop (to visually show frame rounding if needed) */
+.home-screen-125-171__root-bg {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background-color: var(--style-0-background_color);
+  border-radius: var(--style-0-border_radius);
+}
+
+/* Cards/rectangles */
+.home-screen-125-171__rectangle-8 {
+  background-color: var(--style-1-background_color);
+  border-radius: var(--style-1-border_radius);
+}
+.home-screen-125-171__rectangle-11 {
+  background-color: var(--style-3-background_color);
+  border-radius: var(--style-3-border_radius);
+}
+.home-screen-125-171__rectangle-10 {
+  background-color: var(--style-4-background_color);
+  border-radius: var(--style-4-border_radius);
+}
+.home-screen-125-171__rectangle-13 {
+  background-color: var(--style-7-background_color);
+  border-radius: var(--style-7-border_radius);
+}
+.home-screen-125-171__rectangle-9 {
+  background-color: var(--style-8-background_color);
+  border-radius: var(--style-8-border_radius);
+}
+
+/* Text styles */
+.home-screen-125-171__text {
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  font-weight: var(--typo-13-weight);
+  line-height: var(--typo-13-line-height);
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--typo-13-color);
+}
+.home-screen-125-171__hero {
+  margin: 0;
+  font-family: var(--typo-14-family);
+  font-size: var(--typo-14-size);
+  font-weight: var(--typo-14-weight);
+  line-height: var(--typo-14-line-height);
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--typo-14-color);
+}
+
+/* Icon buttons (style_6) */
+.home-screen-125-171__btn {
+  background-color: var(--style-6-background_color);
+  border: 0;
+  border-radius: var(--style-6-border_radius);
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Icons - generic wrapper */
+.home-screen-125-171__icon {
+  position: absolute;
+}
+.home-screen-125-171__icon-layer {
+  position: absolute;
+  left: 0; top: 0;
+  right: 0; bottom: 0;
+  background-color: transparent;
+}
+.home-screen-125-171__icon-layer-fill {
+  position: absolute;
+  background-color: var(--style-5-background_color);
+  border-radius: 0;
+}
+
+/* Ellipse with style_39 and shadows shadow_0 and shadow_1 */
+.home-screen-125-171__ellipse-1 {
+  background-color: var(--style-39-background_color);
+  border-radius: 50%;
+  /* Apply combined shadows in order */
+  box-shadow: var(--shadow-0), var(--shadow-1);
+}
+
+/* Accessibility focus */
+.home-screen-125-171__btn:focus-visible {
+  outline: 2px solid var(--color-ffffff);
+  outline-offset: 2px;
+}
